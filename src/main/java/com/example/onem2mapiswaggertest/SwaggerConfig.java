@@ -15,7 +15,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  *
- * @author MW
+ * @author junha
  */
 @Configuration
 @EnableSwagger2
@@ -48,10 +48,10 @@ public class SwaggerConfig {
 
     private ApiInfo getApiInfo() {
         return new ApiInfoBuilder()
-                .title("API")
-                .description("[Bamdule] API")
-                .contact(new Contact("Bamdule Swagger", "https://bamdule.tistory.com/", "Bamdule5@gmail.com"))
-                .version("1.0")
+                .title("LG U+ oneM2M 연동규격서")
+                .description("LG U+ oneM2M API")
+                .contact(new Contact("LG U+ B2B Platform Development", "https://testadm.oneM2M.uplus.co.kr:8443/", "june32@lguplus.co.kr"))
+                .version("0.1")
                 .build();
     }
 }
